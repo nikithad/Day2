@@ -1,7 +1,13 @@
+import java.util.ArrayList;
 public class Testing{
 	public static void main(String [] args){
-	System.out.println("Nikitha");
-	System.out.println("Melvin");
-	System.out.println("Blue");
+
+	}
+	public static ArrayList<Integer> convertToArrayList(int n){
+		ArrayList<Integer> list = new ArrayList<>();
+		for (int i = 0; i < n.length; i ++){
+			list.add(i);
+		}
+		return n;
 	}
 }
