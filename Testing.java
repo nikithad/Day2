@@ -10,6 +10,8 @@ public class Testing {
 		System.out.println(list);
 		System.out.println(convertToInteger(list));
 
+		System.out.println("Just trying something new");
+
 	}
 
 	public static ArrayList<Integer> convertToArrayList (int n) {
@@ -28,5 +30,6 @@ public class Testing {
 			term += list.get(i);
 		return Integer.parseInt(term);
 	}
+
 
 }
